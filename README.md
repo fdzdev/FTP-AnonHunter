@@ -22,7 +22,7 @@ pip install termcolor
 ## Installation
 - Clone this repository to your local machine:
 ```
-git clone https://github.com/yourusername/FTP-AnonHunte.git
+git clone https://github.com/yourusername/FTP-AnonHunter.git
 ```
 - Navigate to the cloned repository directory:
 ```
