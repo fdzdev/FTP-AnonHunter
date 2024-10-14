@@ -1,6 +1,6 @@
-# AnonFTP-Scanner
+# FTP-AnonHunter
 
-**AnonFTP-Scanner** is a Python tool designed to scan IP addresses for anonymous FTP logins. It utilizes Nmap’s `ftp-anon` script to check if an FTP server allows anonymous login on port 21 and logs the results to an output file.
+**FTP-AnonHunter** is a Python tool designed to scan IP addresses for anonymous FTP logins. It utilizes Nmap’s `ftp-anon` script to check if an FTP server allows anonymous login on port 21 and logs the results to an output file.
 
 ![Analysis](https://github.com/Facuu35/FTP-AnonHunter/blob/main/ex.png)
 
