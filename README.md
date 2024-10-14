@@ -40,3 +40,11 @@ python FTP-AnonHunter.py -i <input_file> [-o <output_file>]
 - -o, --output_file: Path to the output file (optional, default: anon_ftp_ips.txt).
 
 ## Example
+- To scan a list of IP addresses in a file named ip_list.txt and save the results to results.txt:
+```
+python FTP-AnonHunter.py -i ip_list.txt -o results.txt
+```
+## Output
+The script prints the results to the terminal with color-coded messages:
+- Green: Anonymous FTP login is allowed.
+- Red: No anonymous FTP login.
