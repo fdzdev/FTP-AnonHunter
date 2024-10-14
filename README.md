@@ -22,11 +22,11 @@ pip install termcolor
 ## Installation
 - Clone this repository to your local machine:
 ```
-git clone https://github.com/yourusername/anonftp-scanner.git
+git clone https://github.com/yourusername/FTP-AnonHunte.git
 ```
 - Navigate to the cloned repository directory:
 ```
-cd anonftp-scanner
+cd FTP-AnonHunter
 ```
 - Ensure you have Nmap installed on your system:
 ```
