@@ -25,3 +25,18 @@ git clone https://github.com/yourusername/anonftp-scanner.git
 ```
 cd anonftp-scanner
 ```
+- Ensure you have Nmap installed on your system:
+```
+sudo apt-get install nmap  # For Debian/Ubuntu-based systems
+```
+
+## Usage
+- Prepare a text file containing the list of IP addresses you want to scan, with each IP on a new line. Check the file test.txt.
+- Run the scanner with the following command:
+```
+python FTP-AnonHunter.py -i <input_file> [-o <output_file>]
+```
+--i, --input_file: Path to the file containing the list of IPs (required).
+- -o, --output_file: Path to the output file (optional, default: anon_ftp_ips.txt).
+
+## Example
