@@ -27,7 +27,7 @@ def main():
         "-i",
         "--input_file",
         type=str,
-        required=True,  # This makes the argument mandatory
+        required=True,
         help="Path to the file containing the list of IPs.",
     )
 
