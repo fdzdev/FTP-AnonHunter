@@ -3,7 +3,7 @@ from termcolor import colored
 import argparse
 
 
-# Function to scan IPs for anonymous FTP login
+# Function to scan IPs for anonymous FTP login!
 def scan_ip(ip, output_file):
     cmd = f"nmap --script ftp-anon -p 21 {ip}"
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
